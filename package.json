@@ -1,0 +1,32 @@
+{
+  "name": "magento2-rest",
+  "version": "0.6.0",
+  "description": "Magento 2 REST API toolset for Node via Axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CompAndSave/magento2-rest.git"
+  },
+  "keywords": [
+    "magento 2"
+  ],
+  "author": "Andrew Y",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CompAndSave/magento2-rest/issues"
+  },
+  "homepage": "https://github.com/CompAndSave/magento2-rest#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.19.0"
+  }
+}
