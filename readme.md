@@ -68,7 +68,7 @@ await Magento2.delete("/coupons/COUPON_ID");
 
 ```
 **Examples on usage with helpers**
-(Note: Only Coupons and SalesRules Helpers are included at this moment. More are coming)
+(Note: Only Products, Coupons and SalesRules Helpers are included at this moment. More are coming)
 ```
 // GET Coupon data by ID
 //
