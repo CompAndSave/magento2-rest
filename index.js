@@ -27,6 +27,7 @@ class Magento2 {
    */
   static initHelpers() {
     Magento2.coupons = require("./lib/coupons")(Magento2);
+    Magento2.products = require("./lib/products")(Magento2);
     Magento2.salesRules = require("./lib/salesRules")(Magento2);
   }
 
