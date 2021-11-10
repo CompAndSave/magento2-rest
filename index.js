@@ -29,6 +29,8 @@ class Magento2 {
     Magento2.cache = require("./lib/cache")(Magento2);
     Magento2.coupons = require("./lib/coupons")(Magento2);
     Magento2.indexer = require("./lib/indexer")(Magento2);
+    Magento2.order = require("./lib/order")(Magento2);
+    Magento2.orders = require("./lib/orders")(Magento2);
     Magento2.products = require("./lib/products")(Magento2);
     Magento2.salesRules = require("./lib/salesRules")(Magento2);
     Magento2.shipment = require("./lib/shipment")(Magento2);
