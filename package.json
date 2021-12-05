@@ -1,6 +1,6 @@
 {
   "name": "magento2-rest",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "description": "Magento 2 REST API toolset for Node via Axios",
   "main": "index.js",
   "scripts": {
