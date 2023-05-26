@@ -52,9 +52,12 @@ class Magento2 {
    * 
    * @param {string} path API url path
    * @param {object} options Parameter for searchCriteria. Possible attributes: `filter`, `sort`, `pageSize`, `currentPage`, `projection`
+   * @param {object} data Data request
    * @returns {promise} Promise with response object
    */
-  static async get(path, options) { return Promise.resolve(await Magento2._send("GET", `${path}${typeof options === "undefined" ? "" : ("?" + Magento2._getParams(options))}`)); }
+  static async get(path, options, data) {
+    return Promise.resolve(await Magento2._send("GET", `${path}${typeof options === "undefined" ? "" : ("?" + Magento2._getParams(options))}`, data));
+  }
 
   /**
    * POST request via M2 api
