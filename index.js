@@ -30,6 +30,7 @@ class Magento2 {
     Magento2.coupons = require("./lib/coupons")(Magento2);
     Magento2.customer = require("./lib/customer")(Magento2);
     Magento2.customers = require("./lib/customers")(Magento2);
+    Magento2.giftCard = require("./lib/giftCard")(Magento2);
     Magento2.indexer = require("./lib/indexer")(Magento2);
     Magento2.invoice = require("./lib/invoice")(Magento2);
     Magento2.order = require("./lib/order")(Magento2);
@@ -39,6 +40,7 @@ class Magento2 {
     Magento2.products = require("./lib/products")(Magento2);
     Magento2.salesRules = require("./lib/salesRules")(Magento2);
     Magento2.shipment = require("./lib/shipment")(Magento2);
+    Magento2.storeCredit = require("./lib/storeCredit")(Magento2);
   }
 
   /**
